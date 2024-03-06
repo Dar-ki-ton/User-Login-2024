@@ -1,0 +1,66 @@
+html {
+  background: url(images/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  width: 400px;
+  margin: 20px;
+}
+
+body {
+  text-align: center;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid purple;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+div {
+  background: purple;
+  padding: 25px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#welcome {
+  word-spacing: 4px;
+}
+
+hr {
+  width: 300px;
+}
+
+button {
+  background: green;
+  color: white;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  background: darkgreen;
+  color: black;
+
+  transition: color 1s, background 1s;
+}
+
+#forgot {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+#forgot:hover {
+  color: yellow;
+  text-decoration: underline;
+
+  transition: color 1s;
+}
+
+.social {
+  width: 50px;
+  margin: 15px 5px;
+}
